@@ -1,0 +1,25 @@
+{
+    "name": "fazlul34/make-class",
+    "description": "A laravel package to create class with artisan command",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fazlul Kabir",
+            "email": "fazlulkabir34@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4" : {
+            "Zisan34\\": "src"
+        }
+    },
+    "extra" : {
+        "laravel": {
+            "providers" : [
+                "Zisan34\\Providers\\MakeClassServiceProvider"
+            ]
+        }
+    }
+}
